@@ -1,0 +1,45 @@
+form {
+  width: 75%;
+  margin-left: 10rem;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+div {
+  padding: 3px;
+}
+
+.lname {
+  margin-left: 5rem;
+}
+
+#mailid {
+  width: 29rem;
+}
+
+.container > div:nth-child(2),
+.container > div:nth-child(4) {
+  background-color: rgb(153, 150, 150);
+}
+
+.txt {
+  width: 25rem;
+  height: 15rem;
+}
+
+.checked {
+  color: orange;
+}
+
+@media (max-width: 600px) {
+  .lname {
+    margin-left: 0;
+  }
+  #mailid {
+    width: 15rem;
+  }
+  .txt {
+    width: 15rem;
+    height: 20rem;
+  }
+}
